@@ -82,3 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
         worksContainers.scrollLeft = 0;
     });
 });
+
+document.getElementById("dd-icon").addEventListener("click", function() {
+    window.location.href = "#home";
+});
