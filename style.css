@@ -364,7 +364,7 @@ p {
 }
 
 .footer-text-p1:hover{
-    color: rgb(240, 241, 242);
+    color: var(--primary-color-2);
 }
 
 .icon {
