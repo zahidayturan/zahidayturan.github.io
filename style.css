@@ -13,7 +13,7 @@
     --secondary-color-1: rgb(4, 191, 104);
     --secondary-color-2: rgb(240, 241, 242);
     --secondary-color-3: rgb(3, 140, 115);
-    --secondary-color-4: rgb(1, 38, 28);
+    --secondary-color-4: rgb(0, 24, 18);
 
 
 
@@ -106,7 +106,7 @@ p {
     width: 32px;
     height: 32px;
     border-radius: 4px;
-    background-color: rgb(1,38,28);
+    background-color: rgb(0, 24, 18);
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240, 241, 242, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
@@ -167,7 +167,7 @@ p {
     background-color: var(--background-color);
     width: calc(100% + 8px);
     height: calc(100% + 8px);
-    border-left: 3px solid rgb(1,38,28);
+    border-left: 3px solid rgb(0, 24, 18);
     right: -8px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
