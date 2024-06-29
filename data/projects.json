@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Budget Wise",
+    "description": "With this mobile application, you can keep your personal budget or business accounts under control.",
+    "links": [
+      {
+        "url": "https://play.google.com/store/apps/details?id=com.fezaitech.butcetakip",
+        "icon": "assets/play-store-icon.png",
+        "alt": "PlayStore Icon For Budget Wise"
+      },
+      {
+        "url": "https://github.com/zahidayturan/ButceTakip",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For Budget Wise"
+      }
+    ],
+    "progress": "Product"
+  },
+  {
+    "title": "FezaiTech",
+    "description": "This is a software organization that has come together with the aim of producing open-source software in various fields.",
+    "links": [
+      {
+        "url": "https://fezaitech.github.io/",
+        "icon": "assets/www-icon.png",
+        "alt": "Web Icon For Fezai Tech"
+      },
+      {
+        "url": "https://github.com/FezaiTech",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For Fezai Tech"
+      }
+    ],
+    "progress": "Organization"
+  },
+  {
+    "title": "Tedarikten",
+    "description": "This mobile application connects those in the industrial sector who are in search of suppliers with suitable providers.",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan/tedarikten-app",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For Tedarikten"
+      }
+    ],
+    "progress": "in Testing"
+  },
+  {
+    "title": "RehberHane",
+    "description": "This project includes an artificial intelligence-supported student academic tracking mobile and web application.",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For RehberHane"
+      }
+    ],
+    "progress": "being Developed"
+  },
+  {
+    "title": "Okuur",
+    "description": "A digital library application with a dynamic and social infrastructure that serves mobile and web.",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For Okuur"
+      }
+    ],
+    "progress": "being Developed"
+  },
+  {
+    "title": "OneToOneShop",
+    "description": "This project is an e-commerce website. It includes a user-friendly and responsive frontend and a powerful backend",
+    "links": [
+      {
+        "url": "https://github.com/FezaiTech/one-to-one-shop-com",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For OneToOneShop"
+      }
+    ],
+    "progress": "Product"
+  }
+]
