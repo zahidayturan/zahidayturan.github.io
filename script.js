@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             data.forEach(item => {
                 const container = document.createElement('div');
                 container.classList.add('works-container');
+                container.classList.add('fade-in');
 
                 container.innerHTML = `
                     <p class="exp-text-p1 font-bold">${item.title}</p>
@@ -89,4 +90,24 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         })
         .catch(error => console.error('Veri alınamadı:', error));
+
+    document.addEventListener("scroll", function() {
+        const fadeElements = document.querySelectorAll(".fade-in");
+
+        fadeElements.forEach(element => {
+            const position = element.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+
+            if (position < screenPosition) {
+                element.classList.add("show");
+            }
+        });
+    });
+
+    window.onload = function () {
+        const loadElements = document.querySelectorAll('.fade-in-onload');
+        loadElements.forEach(element => {
+            element.classList.add('show');
+        });
+    };
 });
