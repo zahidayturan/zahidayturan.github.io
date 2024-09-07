@@ -1,7 +1,10 @@
 [
   {
     "title": "Budget Wise",
+    "type": "Mobile App Development - UI/UX Design",
+    "date": "March 2023 - January 2024",
     "description": "With this mobile application, you can keep your personal budget or business accounts under control.",
+    "tools": "Flutter, Firebase, SQL, Git, Riverpod, Figma, Photoshop",
     "links": [
       {
         "url": "https://play.google.com/store/apps/details?id=com.fezaitech.butcetakip",
@@ -12,42 +15,43 @@
         "url": "https://github.com/zahidayturan/ButceTakip",
         "icon": "assets/github-icon.png",
         "alt": "GitHub Icon For Budget Wise"
-      }
-    ],
-    "progress": "Product"
-  },
-  {
-    "title": "FezaiTech",
-    "description": "This is a software organization that has come together with the aim of producing open-source software in various fields.",
-    "links": [
-      {
-        "url": "https://fezaitech.github.io/",
-        "icon": "assets/www-icon.png",
-        "alt": "Web Icon For Fezai Tech"
       },
       {
-        "url": "https://github.com/FezaiTech",
-        "icon": "assets/github-icon.png",
-        "alt": "GitHub Icon For Fezai Tech"
+        "url": "https://www.behance.net/gallery/206285977/Buetce-Takip",
+        "icon": "assets/behance-icon.png",
+        "alt": "Behance Icon For Budget Wise"
       }
     ],
-    "progress": "Organization"
+    "progress": "Product",
+    "image": "assets/mini-img/bw-img.png"
   },
   {
     "title": "Tedarikten",
+    "type": "Mobile App Development - UI/UX Design",
+    "date": "January 2024 - February 2024",
     "description": "This mobile application connects those in the industrial sector who are in search of suppliers with suitable providers.",
+    "tools": "Flutter, Firebase, Git, Riverpod, Figma, Photoshop",
     "links": [
       {
         "url": "https://github.com/zahidayturan/tedarikten-app",
         "icon": "assets/github-icon.png",
         "alt": "GitHub Icon For Tedarikten"
+      },
+      {
+        "url": "https://www.behance.net/gallery/206245473/Tedarikten",
+        "icon": "assets/behance-icon.png",
+        "alt": "Behance Icon For Budget Wise"
       }
     ],
-    "progress": "in Testing"
+    "progress": "in Testing",
+    "image": "assets/mini-img/tn-img.png"
   },
   {
     "title": "RehberHane",
+    "type": "Web & Mobile App Development - AI - UI/UX Design",
+    "date": "Feburary 2024 - Present",
     "description": "This project includes an artificial intelligence-supported student academic tracking mobile and web application.",
+    "tools": "Flutter, React, Python, Java, Firebase, SQL, Git, Figma",
     "links": [
       {
         "url": "https://github.com/zahidayturan",
@@ -55,11 +59,15 @@
         "alt": "GitHub Icon For RehberHane"
       }
     ],
-    "progress": "being Developed"
+    "progress": "being Developed",
+    "image": "assets/mini-img/rh-img.png"
   },
   {
     "title": "Okuur",
+    "type": "Mobile App Development - UI/UX Design",
+    "date": "May 2024 - Present",
     "description": "A digital library application with a dynamic and social infrastructure that serves mobile and web.",
+    "tools": "Flutter, Firebase,GetX, SQL, Git, Figma, Photoshop",
     "links": [
       {
         "url": "https://github.com/zahidayturan",
@@ -67,11 +75,15 @@
         "alt": "GitHub Icon For Okuur"
       }
     ],
-    "progress": "being Developed"
+    "progress": "being Developed",
+    "image": "assets/mini-img/ou-img.png"
   },
   {
     "title": "OneToOneShop",
+    "type": "Web App Development - UI/UX Design",
+    "date": "March 2024 - April 2024",
     "description": "This project is an e-commerce website. It includes a user-friendly and responsive frontend and a powerful backend",
+    "tools": "Java, JSP, JS, MySQL, Git, Figma, Photoshop",
     "links": [
       {
         "url": "https://github.com/FezaiTech/one-to-one-shop-com",
@@ -79,6 +91,28 @@
         "alt": "GitHub Icon For OneToOneShop"
       }
     ],
-    "progress": "Product"
+    "progress": "Product",
+    "image": "assets/mini-img/os-img.png"
+  },
+  {
+    "title": "CourseUp",
+    "type": "Web App Development - UI/UX Design",
+    "date": "June 2024 - August 2024",
+    "description": "Online course platform. A web platform where instructors publish courses and students can purchase and watch these courses.",
+    "tools": "Java, SpringBoot, React, JS, PostgreSQL, Git, AWS, Docker, Figma",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan/course-up-app",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For CourseUp"
+      },
+      {
+        "url": "https://www.behance.net/gallery/206236037/CourseUp",
+        "icon": "assets/behance-icon.png",
+        "alt": "Behance Icon For CourseUp"
+      }
+    ],
+    "progress": "Product",
+    "image": "assets/mini-img/cu-img.png"
   }
 ]
