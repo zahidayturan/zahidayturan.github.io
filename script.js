@@ -63,97 +63,30 @@ document.addEventListener('DOMContentLoaded', function () {
                 container.classList.add('works-container');
 
                 container.innerHTML = `
-                    <div class="exp-text-p1 font-bold text-start">${item.title}</div>
-                    <div class="exp-text-p1 text-start text-padding">${item.description}</div>
+                    <p class="exp-text-p1 font-bold">${item.title}</p>
+                    <p class="exp-text-p1 text-xsmall">${item.type}</p>
+                    <p class="exp-text-p1 text-xsmall">${item.date}</p>
+                    <p class="exp-text-p1 text-small">${item.description}</p>
+                     <p class="exp-text-p1 text-xsmall text-italic">${item.tools}</p>
                     <div class="custom-row-pr">
+                        <div>
+                        <p class="works-progress-text-p1">${item.progress}</p>
                         <div class="custom-row-pr-2">
                             ${item.links.map(link => `
-                                <div class="container-icon container-icon-p1">
-                                    <a href="${link.url}" target="_blank" class="icon-link-works">
-                                        <img src="${link.icon}" alt="${link.alt}" class="icon-link-works">
-                                    </a>
-                                </div>
+                                <a href="${link.url}" target="_blank" class="container-icon container-icon-p1">
+                                   <img src="${link.icon}" alt="${link.alt}" class="icon-link-works">
+                                </a>
                             `).join('')}
                         </div>
-                        <div class="works-progress-text-p1">${item.progress}</div>
-                    </div>
-                `;
-
-                worksContainer.appendChild(container);
-            });
-
-            const backContainer = document.createElement('div');
-            backContainer.classList.add('back-container');
-            backContainer.innerHTML = `
-                <img src="assets/back-icon.png" alt="Scroll to right icon" height="24">
-            `;
-            worksContainer.appendChild(backContainer);
-
-            // Back button event listener
-            backContainer.addEventListener('click', function () {
-                worksContainer.scrollLeft = 0;
-            });
-
-            // Add mouse wheel scroll functionality
-            addMouseWheelScroll(worksContainer);
-        })
-        .catch(error => console.error('Veri alınamadı:', error));
-
-    // Fetch designs.json and populate the designs container
-    fetch('data/designs.json')
-        .then(response => response.json())
-        .then(data => {
-            const worksContainers = document.getElementById('designs');
-
-            data.forEach(item => {
-                const container = document.createElement('div');
-                container.classList.add('works-container', 'works-container-for-left');
-
-                container.innerHTML = `
-                    <div class="exp-text-p1 font-bold text-end">${item.title}</div>
-                    <div class="exp-text-p1 text-padding text-end">${item.description}</div>
-                    <div class="custom-row-pr">
-                        <div class="works-progress-text-p1">${item.progress}</div>
-                        <div class="custom-row-pr-2">
-                            <div class="container-icon container-icon-p1">
-                                <a href="${item.link.url}" target="_blank" class="icon-link-works">
-                                    <img src="${item.link.icon}" alt="${item.link.alt}" class="icon-link-works">
-                                </a>
-                            </div>
+                        </div>
+                        <div class="work-mini-img-box">
+                            <img class="work-mini-img" src="${item.image}" alt="work mini image">
+                            <div class="work-mini-img-back"></div>
                         </div>
                     </div>
                 `;
-
-                worksContainers.appendChild(container);
+                worksContainer.appendChild(container);
             });
-
-            const backContainer = document.createElement('div');
-            backContainer.classList.add('back-container', 'back-2');
-            backContainer.innerHTML = `
-                <img src="assets/back-icon.png" alt="Scroll to right icon" class="rotate-180" height="24">
-            `;
-            worksContainers.appendChild(backContainer);
-
-            // Back button event listener for designs
-            backContainer.addEventListener('click', function () {
-                worksContainers.scrollLeft = 0;
-            });
-
-            // Add mouse wheel scroll functionality
-            addMouseWheelScroll(worksContainers,"left");
         })
         .catch(error => console.error('Veri alınamadı:', error));
-
-    // Add mouse wheel scroll functionality to containers
-    function addMouseWheelScroll(container, direction = 'right') {
-        const scrollSpeed = 3;
-        container.addEventListener('wheel', function (e) {
-            e.preventDefault();
-            if (direction === 'right') {
-                container.scrollLeft += e.deltaY * scrollSpeed;
-            } else if (direction === 'left') {
-                container.scrollLeft -= e.deltaY * scrollSpeed;
-            }
-        });
-    }
 });

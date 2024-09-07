@@ -12,7 +12,7 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg">
+<div class="navbar navbar-expand-lg">
     <div>
         <a class="navbar-brand" href="#home">Home</a>
         <img
@@ -41,7 +41,7 @@
             </li>
         </ul>
     </div>
-</nav>
+</div>
 
 <section id="home">
     <div class="container-fluid">
@@ -50,34 +50,29 @@
                 <div class="custom-line"></div>
             </div>
             <div class="col-11 align-self-center text-end">
-                <div class="header-text-p1"><span></span></div>
-                <div class="info-text-p1">I'm Zahid</div>
-                <div class="info-text-p2">Computer Engineering<br>Student</div>
+                <p class="header-text-p1"><span></span></p>
+                <p class="info-text-p1">I'm Zahid</p>
+                <p class="info-text-p2">Computer Engineering<br>Student</p>
             </div>
         </div>
     </div>
 
     <div class="container-fluid container-spacer"></div>
 
-
     <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-6 align-self-center">
-                <div class="info-text-p3">Software<br>and<br>Design</div>
+                <p class="info-text-p3">Software<br>and<br>Design</p>
             </div>
             <div class="col-6">
                 <div class="custom-row">
                     <div class="icons-container">
-                        <div class="container-icon">
-                            <a href="https://github.com/zahidayturan" target="_blank" class="icon-link">
-                                <img src="assets/github-icon.png" alt="GitHub Icon" class="icon-link">
-                            </a>
-                        </div>
-                        <div class="container-icon">
-                            <a href="https://linkedin.com/in/ismet-zahid-ayturan-78218b304" target="_blank" class="icon-link">
-                                <img src="assets/linkedin-icon.png" alt="Linkedin Icon" class="icon-link">
-                            </a>
-                        </div>
+                        <a href="https://github.com/zahidayturan" target="_blank" class="container-icon">
+                            <img src="assets/github-icon.png" alt="GitHub Icon" class="icon-link">
+                        </a>
+                        <a href="https://linkedin.com/in/ismet-zahid-ayturan-78218b304" target="_blank" class="container-icon">
+                            <img src="assets/linkedin-icon.png" alt="Linkedin Icon" class="icon-link">
+                        </a>
                     </div>
                     <div class="custom-line-f2"></div>
                 </div>
@@ -87,20 +82,16 @@
 
 </section>
 
-<section id="about-me">
-
-    <div class="container-fluid">
+    <div id="about-me" class="container-fluid">
         <div class="row wrap-row">
             <div class="col-6 align-self-center wrap-col">
                 <div class="custom-row">
                     <div class="custom-line-about"></div>
                     <div class="col">
-                        <div class="title-text-p1">İsmet Zahid</div>
-                        <div class="title-text-p2">Ayturan</div>
-                        <div class="subtitle-text-p1">2002<br>Amasya / Turkey</div>
-                        <div class="subtitle-text-p2">Computer Engineering Student<br>4th grade<br>Ondokuz Mayıs University</div>
+                        <p class="title-text-p1">İsmet Zahid<br><span class="title-text-p2">Ayturan</span></p>
+                        <p class="subtitle-text-p1">2002<br>Amasya / Turkey</p>
+                        <p class="subtitle-text-p2">Computer Engineering Student<br>4th grade<br>Ondokuz Mayıs University</p>
                     </div>
-
                 </div>
             </div>
             <div class="col-6 align-self-center custom-right-align wrap-col-2">
@@ -116,127 +107,93 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="row justify-content-between">
-            <div class="col-11">
-                <div class="exp-text-p1">
-                    "I am currently engaged in software development
-                    and design. I enjoy solving problems,
-                    learning new things, working in teams
-                    and generating innovative ideas.
-                    I am constantly improving myself
-                    in various software domains."
+        <div class="row justify-content-between" style="padding: 4rem 0">
+                <div class="col-11">
+                    <div class="exp-text-p1">
+                        "I am currently engaged in software development
+                        and design. I enjoy solving problems,
+                        learning new things, working in teams
+                        and generating innovative ideas.
+                        I am constantly improving myself
+                        in various software domains."
+                    </div>
                 </div>
-            </div>
-            <div class="col-1 custom-right-align">
+                <div class="col-1 custom-right-align">
                     <div class="custom-line"></div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="row wrap-row">
-            <div class="col-1 wrap-col">
-                <div class="exp-text-p2">
-                    Education
-                </div>
-                <div class="custom-line-about-h"></div>
-            </div>
-            <div class="col-3">
-            </div>
-            <div class="col-4 text-end wrap-col-p2">
-                <div class="exp-text-p1">
-                    2021 - 2025
-                </div>
-                <div class="exp-text-p1 font-bold">
-                    Bachelor's degree
-                </div>
-                <div class="exp-text-p1">
+        <div id="education" class="content-column">
+            <p class="section-header-text">Education</p>
+            <div class="par-padding">
+                <p class="exp-text-p1 text-xsmall">September 2021 - June 2025</p>
+                <p class="exp-text-p1 font-bold">Bachelor's degree</p>
+                <p class="exp-text-p1 text-medium">
                     Computer Engineering<br>
-                    Ondokuz Mayıs University<br>
-                    Samsun / Turkey
-                </div>
+                    Ondokuz Mayıs University <span class="text-xsmall">/ Samsun, Turkey</span>
+                </p>
             </div>
-            <div class="col-4 text-end wrap-col-p2">
-                <div class="exp-text-p1">
-                    2016 - 2020
-                </div>
-                <div class="exp-text-p1 font-bold">
-                    High School
-                </div>
-                <div class="exp-text-p1">
-                    Merzifon Anatolian İmam<br>
-                    Hatip High School<br>
-                    Amasya / Turkey
-                </div>
+            <div class="par-padding">
+                <p class="exp-text-p1 text-xsmall">September 2016 - June 2020</p>
+                <p class="exp-text-p1 font-bold">High School</p>
+                <p class="exp-text-p1 text-medium">
+                    Merzifon Anatolian İmam Hatip High School <span class="text-xsmall">/ Amasya, Turkey</span>
+                </p>
             </div>
-
+        </div>
+        <div id="experience" class="content-column">
+            <p class="section-header-text">Experience</p>
+            <div class="par-padding">
+                <p class="exp-text-p1 text-xsmall">June 2024 - August 2024</p>
+                <p class="exp-text-p1 font-bold">Java Software Development Intern</p>
+                <p class="exp-text-p1 text-medium">Nish Business Solutions <span class="text-xsmall">/ Ankara, Turkey</span></p>
+                <p class="exp-text-p1 text-xsmall">I contributed to the development of a Java Spring Boot backend with a React frontend, utilizing tools like Hibernate, JDBC, Docker, AWS, and various project management technologies for a scalable and efficient platform.</p>
+            </div>
         </div>
     </div>
 
+    <div id="my-works" class="container-fluid content-column">
+        <p class="section-header-text">Projects</p>
+        <div id="projects" class="works-containers par-padding"></div>
+    </div>
 
-</section>
-
-<section id="my-works">
-    <div class="container-fluid">
-        <div class="custom-row-pr">
-                     <div class="custom-row-pr-2 wrap-row-p2">
-                         <div class="works-title-p1">Software</div>
-                         <div class="works-title-p2">Projects </div>
-                     </div>
-                     <div class="slider-container">
-                         <img src="assets/slide-icon.png" alt="Scroll to right icon" height="24">
-                     </div>
-                 </div>
-        <div id="projects" class="works-containers">
-
-
+    <div id="community" class="container-fluid content-column">
+        <p class="section-header-text">Community</p>
+        <div class="par-padding">
+            <p class="exp-text-p1 text-xsmall">August 2023 - Present</p>
+            <p class="exp-text-p1 font-bold">Software Developer Member - Community Co-Founder </p>
+            <p class="exp-text-p1 text-medium">FezaiTech <span class="text-xsmall">/ Samsun, Turkey</span></p>
+            <p class="exp-text-p1 text-xsmall">This is a software organization that has come together with the aim of producing open-source software in various fields.</p>
+            <div class="custom-row-pr-2">
+                <a href="https://fezaitech.github.io/" target="_blank" class="container-icon container-icon-p1">
+                    <img src="assets/www-icon.png" alt="Web Icon For Fezai Tech" class="icon-link-works">
+                </a>
+                <a href="https://github.com/FezaiTech" target="_blank" class="container-icon container-icon-p1">
+                    <img src="assets/github-icon.png" alt="GitHub Icon For Fezai Tech" class="icon-link-works">
+                </a>
+            </div>
         </div>
     </div>
-
-
-    <div class="container-fluid">
-                <div class="custom-row-pr">
-                    <div class="slider-container slider-2">
-                        <img src="assets/slide-icon.png" alt="Scroll to left icon" height="24" class="rotate-180">
-                    </div>
-                    <div class="custom-row-pr-2 wrap-row-p2 align-end">
-                        <div class="works-title-p2">My</div>
-                        <div class="works-title-p1">Designs</div>
-                    </div>
-
-                </div>
-                <div id="designs" class="works-containers works-2 scroll-list-reverse works-2">
-
-                </div>
-    </div>
-</section>
 
 <section id="contact-me">
         <div class="subtitle-text-p2">Contact Me</div>
         <div class="icons-containers-contact">
-            <div class="container-icon-contact">
-                <a href="mailto:zahid.ayturan@bil.omu.edu.tr" target="_blank" class="icon-link-large">
-                    <img src="assets/mail-icon.png" alt="Mail Icon" class="icon-link-large">
-                </a>
-            </div>
-            <div class="container-icon-contact">
-                <a href="https://github.com/zahidayturan" target="_blank" class="icon-link-large">
-                    <img src="assets/github-icon.png" alt="GitHub Icon" class="icon-link-large">
-                </a>
-            </div>
-            <div class="container-icon-contact">
-                <a href="https://linkedin.com/in/ismet-zahid-ayturan-78218b304" target="_blank" class="icon-link-large">
-                    <img src="assets/linkedin-icon.png" alt="Linkedin Icon" class="icon-link-large">
-                </a>
-            </div>
-            <div class="container-icon-contact">
-                <a href="https://www.instagram.com/" target="_blank" class="icon-link-large">
-                    <img src="assets/instagram-icon.png" alt="Instagram Icon" class="icon-link-large">
-                </a>
-            </div>
+            <a href="mailto:zahid.ayturan@bil.omu.edu.tr" target="_blank" class="container-icon container-icon-contact">
+                <img src="assets/mail-icon.png" alt="Mail Icon" class="icon-link-large">
+            </a>
+            <a href="https://github.com/zahidayturan" target="_blank" class="container-icon container-icon-contact">
+                <img src="assets/github-icon.png" alt="GitHub Icon" class="icon-link-large">
+            </a>
+            <a href="https://linkedin.com/in/ismet-zahid-ayturan-78218b304" target="_blank" class="container-icon container-icon-contact">
+                <img src="assets/linkedin-icon.png" alt="Linkedin Icon" class="icon-link-large">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="container-icon container-icon-contact">
+                <img src="assets/instagram-icon.png" alt="Instagram Icon" class="icon-link-large">
+            </a>
+            <a href="https://www.behance.net/zahidayturan" target="_blank" class="container-icon container-icon-contact">
+                <img src="assets/behance-icon.png" alt="Behance Icon" class="icon-link-large">
+            </a>
         </div>
 </section>
 
@@ -254,7 +211,7 @@
             </div>
             <div class="col-10 align-self-center text-end p-0">
                 <div class="custom-row align-center">
-                    <div class="footer-text-p1">Designed and developed by</div>
+                    <p class="footer-text-p1">Designed and developed by<br><span style="font-size: 6px">0111001001100001011001000110000101100111011000010111001101110100</span></p>
                     <img
                             id="dd-icon"
                             class="icon"
@@ -270,11 +227,5 @@
 </div>
 
 <script src="script.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
