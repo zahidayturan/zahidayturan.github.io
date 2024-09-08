@@ -290,6 +290,8 @@ p {
 
 .container-icon-p1 {
     background-color: rgb(4,191,104);
+    width: 44px;
+    height: 44px;
 }
 
 .container-icon-p1:hover ,.container-icon-contact:hover {
@@ -526,16 +528,16 @@ p {
 }
 
 .work-mini-img-box{
-    height: 96px;
-    width: 150px;
+    height: 92px;
+    width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .work-mini-img-back{
-    height: 64px;
-    width: 150px;
+    height: 62px;
+    width: 140px;
     border-radius: 100px;
     position: absolute;
     z-index: 1;
@@ -549,14 +551,14 @@ p {
 }
 
 .icon-link-works {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 }
 
 .icon-link-works:hover {
     color: rgb(4,191,104);
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     transform: rotate(10deg);
 }
 
@@ -605,13 +607,13 @@ p {
     }
 }
 
-.fade-in ,.fade-in-onload{
+.fade-in{
     opacity: 0;
     transform: translateY(28px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.fade-in.show ,.fade-in-onload.show{
+.fade-in.show{
     opacity: 1;
     transform: translateY(0);
 }
