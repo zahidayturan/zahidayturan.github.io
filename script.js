@@ -103,11 +103,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-
-    window.onload = function () {
-        const loadElements = document.querySelectorAll('.fade-in-onload');
-        loadElements.forEach(element => {
-            element.classList.add('show');
-        });
-    };
 });
