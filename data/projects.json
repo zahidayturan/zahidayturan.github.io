@@ -114,5 +114,59 @@
     ],
     "progress": "Product",
     "image": "assets/mini-img/cu-img.png"
+  },
+  {
+    "title": "RSA Simulation",
+    "type": "Cryptography - Web App",
+    "date": "September 2024 - October 2024",
+    "description": "This project demonstrates file encryption and decryption using various scenarios with the RSA algorithm, featuring a SpringBoot API for backend and a React for simulation.",
+    "tools": "React, Java, SpringBoot, JavaScript, Git, Figma",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan/rsa-cryptography-algorithm-example",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For RSA"
+      }
+    ],
+    "progress": "Product",
+    "image": "assets/mini-img/ra-img.png"
+  },
+  {
+    "title": "Breast Cancer Analysis",
+    "type": "Deep Learning - Research Project",
+    "date": "October 2024 - Present",
+    "description": "This project leverages machine learning and image processing techniques to analyze breast cancer histopathological images.",
+    "tools": "Python, TensorFlow, Keras, OpenCV, Kaggle",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For za"
+      }
+    ],
+    "progress": "Research",
+    "image": "assets/mini-img/bc-img.png"
+  },
+
+  {
+    "title": "AES App Beta",
+    "type": "Cyber Security - Mobile App",
+    "date": "October 2024 - November 2024",
+    "description": "\nThis application leverages AES encryption to secure media files using unique keys generated from QR codes, barcodes, sound, and images.",
+    "tools": "Flutter, Dart, Firebase, Git, GitKraken, Figma",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan/advanced-encryption-standard-application",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For AES App"
+      },
+      {
+        "url": "https://www.behance.net/gallery/211835631/AES-App-beta",
+        "icon": "assets/behance-icon.png",
+        "alt": "Behance Icon For AES App"
+      }
+    ],
+    "progress": "Product",
+    "image": "assets/mini-img/ae-img.png"
   }
 ]
