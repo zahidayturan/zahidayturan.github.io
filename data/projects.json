@@ -67,15 +67,20 @@
     "type": "Mobile App Development - UI/UX Design",
     "date": "May 2024 - Present",
     "description": "A digital library application with a dynamic and social infrastructure that serves mobile and web.",
-    "tools": "Flutter, Firebase,GetX, SQL, Git, Figma, Photoshop",
+    "tools": "Flutter, Firebase, GetX, SQL, Git, Figma, Photoshop",
     "links": [
       {
-        "url": "https://github.com/zahidayturan",
+        "url": "https://github.com/zahidayturan/okuur-book-tracker-mobile-app",
         "icon": "assets/github-icon.png",
         "alt": "GitHub Icon For Okuur"
+      },
+      {
+        "url": "https://www.behance.net/gallery/218568543/Okuur-Dijital-Kitaplk-Uygulamas",
+        "icon": "assets/behance-icon.png",
+        "alt": "Behance Icon For Okuur"
       }
     ],
-    "progress": "being Developed",
+    "progress": "Product",
     "image": "assets/mini-img/ou-img.png"
   },
   {
