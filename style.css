@@ -521,6 +521,7 @@ p {
 
 .works-container {
     flex: 1 0 400px;
+    max-width: 660px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
