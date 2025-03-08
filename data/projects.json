@@ -65,7 +65,7 @@
   {
     "title": "Okuur",
     "type": "Mobile App Development - UI/UX Design",
-    "date": "May 2024 - Present",
+    "date": "May 2024 - January 2025",
     "description": "A digital library application with a dynamic and social infrastructure that serves mobile and web.",
     "tools": "Flutter, Firebase, GetX, SQL, Git, Figma, Photoshop",
     "links": [
@@ -152,7 +152,6 @@
     "progress": "Research",
     "image": "assets/mini-img/bc-img.png"
   },
-
   {
     "title": "AES App Beta",
     "type": "Cyber Security - Mobile App",
@@ -173,5 +172,21 @@
     ],
     "progress": "Product",
     "image": "assets/mini-img/ae-img.png"
+  },
+  {
+    "title": "Multi Lang Auth API Platform",
+    "type": "Authentication - REST API",
+    "date": "March 2025 - Present",
+    "description": "\nA cross-platform authentication API enabling seamless user login and signup across multiple programming languages and technologies.",
+    "tools": "SpringBoot, FastAPI, Node.js, Ruby on Rails, Go, Django",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan/multi-lang-auth-api-platform",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For Multi Lang Auth API"
+      }
+    ],
+    "progress": "being Developed",
+    "image": "assets/mini-img/ap-img.png"
   }
 ]
