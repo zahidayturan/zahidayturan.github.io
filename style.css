@@ -11,7 +11,7 @@
     --secondary-color-1: rgb(4, 191, 104);
     --secondary-color-2: rgb(240, 241, 242);
     --secondary-color-3: rgb(3, 140, 115);
-    --secondary-color-4: rgb(0, 20, 15);
+    --secondary-color-4: rgb(4, 191, 104, 0.05);
 }
 
 /* Light Mode */
@@ -25,7 +25,7 @@
     --secondary-color-1: rgb(13, 13, 13);
     --secondary-color-2: rgb(2, 89, 73);
     --secondary-color-3: rgb(3, 140, 115);
-    --secondary-color-4: rgb(0, 20, 15);
+    --secondary-color-4: rgb(255, 255, 255, 0.5);
 }
 
 * {
@@ -93,7 +93,7 @@ p {
     box-shadow: none;
 }
 
-#home , #about-me , #contact-me , #my-works {
+#home , #about-me , #contact-me , #my-works, #community {
     height: max-content;
     overflow: hidden;
     background-image: url('./assets/home-line.png');
@@ -484,7 +484,7 @@ p {
 .profile-photo:hover{
     transform: scale(1.1);
     border: 0.2rem outset rgb(4,191,104);
-    box-shadow: rgba(3,140,115, 0.1) 0px 14px 28px, rgba(3,140,115, 0.12) 0px 10px 10px;
+    box-shadow: rgba(3,140,115, 0.1) 0 14px 28px, rgba(3,140,115, 0.12) 0 10px 10px;
 }
 
 .icons-containers-contact {
