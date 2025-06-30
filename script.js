@@ -33,6 +33,7 @@ function setDarkMode() {
     document.body.removeAttribute("theme");
     localStorage.setItem("theme", "dark");
 
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", "#00140F");
     themeIcons.forEach((icon) => {
         icon.src = icon.getAttribute("src-dark");
     });
@@ -42,6 +43,7 @@ function setLightMode() {
     document.body.setAttribute("theme", "light");
     localStorage.setItem("theme", "light");
 
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", "#F0F1F2");
     themeIcons.forEach((icon) => {
         icon.src = icon.getAttribute("src-light");
     });

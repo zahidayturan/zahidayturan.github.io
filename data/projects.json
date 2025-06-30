@@ -188,5 +188,21 @@
     ],
     "progress": "being Developed",
     "image": "assets/mini-img/ap-img.png"
+  },
+  {
+    "title": "FXaltra",
+    "type": "Flight Simulation And Station - Desktop",
+    "date": "March 2025 - Present",
+    "description": "\nThis advanced flight simulation platform delivers a high-fidelity experience with realistic AI-based flight control, and autonomous missions-all accessible via mobile and desktop.",
+    "tools": "WPF, Unity, Flutter, C#, Python, Figma, PostgreSQL",
+    "links": [
+      {
+        "url": "https://github.com/FezaiTech/fxaltra",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For FXaltra"
+      }
+    ],
+    "progress": "being Developed",
+    "image": "assets/mini-img/fx-img.png"
   }
 ]
