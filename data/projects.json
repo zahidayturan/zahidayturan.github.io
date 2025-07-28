@@ -204,5 +204,21 @@
     ],
     "progress": "being Developed",
     "image": "assets/mini-img/fx-img.png"
+  },
+  {
+    "title": "ListedenAl App",
+    "type": "Shopping List App - Mobile - API",
+    "date": "August 2025 - Present",
+    "description": "\nThis mobile app makes shopping much easier by allowing you to share and collaboratively edit your shopping lists with loved ones!",
+    "tools": "Kotlin, Android, Java, SpringBoot, Figma, PostgreSQL, Firebase",
+    "links": [
+      {
+        "url": "https://github.com/zahidayturan/listeden-al-shopping-list-app",
+        "icon": "assets/github-icon.png",
+        "alt": "GitHub Icon For ListedenAlApp"
+      }
+    ],
+    "progress": "being Developed",
+    "image": "assets/mini-img/la-img.png"
   }
 ]
